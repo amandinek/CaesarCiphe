@@ -8,11 +8,11 @@ public class CaesarCipher {
         String encryptText="";
         int length= plainText.length();
         for (int i=0;i<length;i++){
-            char ch = plainText.charAt(i);
-            if(Character.isLetter(ch)){
+            char alpfa = plainText.charAt(i);
+            if(Character.isLetter(alpfa)){
 
             } else{
-                encrypt()
+                encryptText += alpfa;
             }
         }
         return encryptText;
